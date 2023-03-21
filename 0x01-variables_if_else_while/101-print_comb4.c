@@ -1,7 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - a program that prints all possible different combinations of three digits.
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,11 +17,11 @@ int main(void)
         {
 	for (q = p + 1; q <= '9'; q++)
 	{
-        if ((p != d != q))
+        if ((p != d) != q))
         {
         putchar(d);
         putchar(p);
-	putchar(p);
+	putchar(q);
         if (d == '7' && p == '8')
         continue;
         putchar(',');
