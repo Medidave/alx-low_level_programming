@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int x, maxf;
+	long x, maxf;
 	long number = 612852475143;
 	double square = sqrt(number);
 
